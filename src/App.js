@@ -48,7 +48,7 @@ function App() {
       {activeLocation && weather && (
         <>
           <div class="flex md:flex-row flex-col md:pt-4 md:pb-4 border-b text-gray-700 border-gray-400">
-            <div class="md:w-1/3  md:p-10 ...">
+            <div class="md:w-1/3  md:p-10 border-r border-gray-400 ">
               <div className="flex justify-start flex-col pb-2">
                 <p>{dayjs().format("dddd, MMM D")}</p>
                 <p className="font-bold">6PM</p>
